@@ -1,0 +1,11 @@
+output "vpc_id" { value = aws_vpc.main.id }
+output "web_subnet_id" { value = aws_subnet.web.id }
+output "app_subnet_id" { value = aws_subnet.app.id }
+output "alb_dns_name" { value = aws_lb.main.dns_name }
+output "waf_acl_arn" { value = aws_wafv2_web_acl.main.arn }
+output "waf_acl_id" { value = aws_wafv2_web_acl.main.id }
+output "guardduty_detector_id" { value = aws_guardduty_detector.main.id }
+output "web_sg_id" { value = aws_security_group.web.id }
+output "app_sg_id" { value = aws_security_group.app.id }
+output "web_nacl_id" { value = aws_network_acl.web.id }
+output "app_nacl_id" { value = aws_network_acl.app.id }
