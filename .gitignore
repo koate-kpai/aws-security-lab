@@ -1,0 +1,38 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfplan
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local .terraform directories
+**/.terraform/*
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Environment / credentials
+*.env
+.envrc
+**/secrets/
+**/credentials/
+aws-credentials.ini
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# PowerShell profiles
+Microsoft.PowerShell_profile.ps1
+
+# Logs
+*.log
